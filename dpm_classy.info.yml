@@ -1,0 +1,12 @@
+name: DPM Classy
+type: theme
+description: A Drupal 8 sub-theme of Classy
+core: 8.x
+base theme: classy
+libraries:
+  - dpm_classy/global-styling
+regions:
+  header: Header
+  sidebar: Sidebar
+  content: Content
+  footer: Footer
