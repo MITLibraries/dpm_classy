@@ -2,3 +2,13 @@ global-styling:
   css:
     component:
       css/style.css: {}
+
+dpm_classy.selfquiz:
+  css:
+    theme:
+      css/selfquiz.css: {}
+  js:
+    js/loader.js: {}
+    js/selfquiz.js: {}
+  dependencies:
+    - core/jquery

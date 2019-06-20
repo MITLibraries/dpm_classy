@@ -5,6 +5,7 @@ core: 8.x
 base theme: classy
 libraries:
   - dpm_classy/global-styling
+  - dpm_classy/dpm_classy.selfquiz
 regions:
   header: Header
   sidebar: Sidebar
