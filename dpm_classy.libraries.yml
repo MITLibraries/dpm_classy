@@ -8,7 +8,7 @@ dpm_classy.selfquiz:
     theme:
       css/selfquiz.css: {}
   js:
-    js/loader.js: {}
-    js/selfquiz.js: {}
+    js/selfquiz.js: {weight: -19}
+    js/loader.js: {weight: -18}
   dependencies:
     - core/jquery
