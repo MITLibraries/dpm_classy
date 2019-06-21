@@ -1,4 +1,45 @@
 body {
-	background-color: #fff;
+	background: #fff url('../img/background.png') top left no-repeat;
 	color: #000;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.wrapper {
+	margin: 1rem;
+	max-width: 61rem;
+}
+.leftbar {
+	max-width: 11rem;
+}
+.masthead {
+	height: 11rem;
+}
+.main {
+
+}
+.colophon {
+
+}
+
+#header {
+	background: #ffc;
+}
+#sidebar {
+	background: #fcf;
+}
+#footer {
+	background: #cff;
 }
