@@ -3,11 +3,21 @@ type: theme
 description: A Drupal 8 sub-theme of Classy
 core: 8.x
 base theme: classy
+
 libraries:
   - dpm_classy/global-styling
   - dpm_classy/dpm_classy.selfquiz
+
+logo: img/monitor-icon.png
+
 regions:
   header: Header
   sidebar: Sidebar
+  highlight: Highlight
+  help: Help
   content: Content
   footer: Footer
+
+screenshot: screenshot.png
+
+version: 0.3.0
