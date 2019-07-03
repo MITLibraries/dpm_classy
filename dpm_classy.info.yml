@@ -4,6 +4,10 @@ description: A Drupal 8 sub-theme of Classy
 core: 8.x
 base theme: classy
 
+ckeditor_stylesheets:
+  - css/text.css
+  - css/callouts.css
+
 libraries:
   - dpm_classy/global-styling
   - dpm_classy/dpm_classy.selfquiz
@@ -20,4 +24,4 @@ regions:
 
 screenshot: screenshot.png
 
-version: 0.3.0
+version: 0.3.0-rc2
