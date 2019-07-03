@@ -4,6 +4,7 @@ global-styling:
       css/style.css: {}
       css/text.css: {}
       css/callouts.css: {}
+      css/superfish.css: {}
 
 dpm_classy.selfquiz:
   css:

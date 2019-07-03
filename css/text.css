@@ -1,5 +1,5 @@
 body {
-	background: #fff;
+	background-color: #fff;
 	color: #555753;
 	font-family: "Verdana", sans-serif;
 	font-size: 12px;
@@ -20,7 +20,7 @@ body {
 }
 
 #content h3 {
-	color: #555753;
+	color: #4B5C23;
 	font-size: 12px;
 	font-weight: 700;
 }
