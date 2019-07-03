@@ -1,9 +1,12 @@
+/* Block styles */
+/* Case in point */
 #content div.case-in-point:before {
 	content: url('../img/point.gif');
 	padding-right: 0.5rem;
 	vertical-align: -50%;
 }
 
+/* Check this out */
 #content div.check-out:before {
 	content: url('../img/checkmark.gif');
 	padding-right: 0.5rem;
@@ -62,15 +65,41 @@
 	width: 80%;
 }
 
+/* Suggested actions */
 #content div.suggested:before {
 	content: url('../img/action.gif');
 	padding-right: 0.5rem;
 	vertical-align: -50%;
 }
 
+/* Watch this spot */
 #content div.watch-this:before {
 	content: url('../img/watch_glass.gif');
 	padding-right: 0.5rem;
 	vertical-align: -50%;
 }
 
+/* Inline styles */
+/* Organizational challenge */
+#content span.manager {
+	font-family: "Georgia", "Times New Roman", "Times", serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ca0000;
+}
+
+/* Technical challenge */
+#content span.technical {
+	font-family: "Georgia", "Times New Roman", "Times", serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #EEA643;
+}
+
+/* Resource challenge */
+#content span.resource {
+	font-family: "Georgia", "Times New Roman", "Times", serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #6f8531;
+}
