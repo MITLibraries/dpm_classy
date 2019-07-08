@@ -1,4 +1,3 @@
-[![Build Status](https://api.travis-ci.com/MITLibraries/dpm_classy.svg)](https://travis-ci.org/MITLibraries/dpm_classy)
 [![Code Climate](https://codeclimate.com/github/MITLibraries/dpm_classy/badges/gpa.svg)](https://codeclimate.com/github/MITLibraries/dpm_classy)
 
 DPM_Classy
