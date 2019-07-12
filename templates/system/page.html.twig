@@ -54,18 +54,25 @@
 
 <div class="wrapper">
 
-  <div id="header" role="heading">
+  <div class="row" id="header" role="heading">
     {# Header #}
     {% if page.header %}
     {% block header %}
       {{ page.header }}
     {% endblock %}
     {% endif %}
+
+    {# Dial #}
+    {% if page.dial %}
+    {% block dial %}
+      {{ page.dial }}
+    {% endblock %}
+    {% endif %}
   </div>
 
   {% block main %}
   <div class="row main">
-    <div class="column leftbar">
+    <div class="column thincolumn">
       {# Sidebar #}
       {% if page.sidebar %}
       {% block sidebar %}
