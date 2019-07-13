@@ -46,13 +46,14 @@ body {
 }
 
 #content table {
-	border: 1px solid #000066;
 }
 
 #content td {
 	background-color: #f8f8f3;
+	padding: 1rem;
 }
 
 #content th {
 	background-color: #e9e9d1;
+	padding: 1rem;
 }
