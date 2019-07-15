@@ -3,6 +3,13 @@ ul.sf-menu.sf-style-none {
   margin-bottom: 1em;
   padding: 0;
 }
+ul.sf-menu.sf-style-none.sf-vertical {
+  width: 15em;
+}
+ul.sf-menu.sf-style-none.sf-vertical li:hover > ul,
+ul.sf-menu.sf-style-none.sf-vertical li.sfHover > ul {
+  left: 15em;
+}
 ul.sf-menu.sf-style-none li {
   float: none;
 }
