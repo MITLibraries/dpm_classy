@@ -16,6 +16,7 @@ logo: img/monitor-icon.png
 
 regions:
   header: Header
+  dial: Dial
   sidebar: Sidebar
   highlight: Highlight
   help: Help
@@ -24,4 +25,4 @@ regions:
 
 screenshot: screenshot.png
 
-version: 0.4.0
+version: 0.6.0-beta2
