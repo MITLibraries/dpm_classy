@@ -1,69 +1,66 @@
 body {
-	background: #fff url('../img/background.png') top left no-repeat;
-	color: #000;
+  background: #fff url("../img/background.png") top left no-repeat;
+  color: #000;
 }
 
 .row {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .column {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .wrapper {
-	margin: 1rem;
-	max-width: 61rem;
+  margin: 1rem;
+  max-width: 61rem;
 }
+
 .thincolumn {
-	max-width: 12rem;
+  max-width: 12rem;
 }
+
 .masthead {
-	height: 11rem;
-}
-.main {
-
-}
-.colophon {
-
-}
-
-#header {
+  height: 11rem;
 }
 
 #header #block-dpm-classy-branding .site-name {
-	font-family: "Literata", serif;
-	color: #000;
+  font-family: "Literata", serif;
+  color: #000;
 }
+
 #header #block-dpm-classy-branding .site-slogan {
-	font-family: "DM Sans", serif;
-	color: #000;
+  font-family: "DM Sans", serif;
+  color: #000;
 }
 
 #header .site-name {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }
+
 #header .site-name a {
-	color: black;
-	font-size: 2rem;
-	font-weight: bold;
-	text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
 }
+
 #header .site-slogan {
-	margin-top: 0.25rem;
-	font-size: 1rem;
+  margin-top: 0.25rem;
+  font-size: 1rem;
 }
-#sidebar {
-}
+
 #footer {
-	border-top: 1px solid black;
-	margin-top: 1rem;
-	padding-top: 1rem;
-	width: 100%;
+  border-top: 1px solid black;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  width: 100%;
 }
+
+/*# sourceMappingURL=style.css.map */
