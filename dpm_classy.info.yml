@@ -5,7 +5,7 @@ core: 8.x
 base theme: classy
 
 ckeditor_stylesheets:
-  - css/text.css
+  - css/ckeditor.css
   - css/callouts.css
 
 libraries:

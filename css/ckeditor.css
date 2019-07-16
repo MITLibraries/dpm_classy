@@ -1,51 +1,94 @@
-#content div.case-in-point:before {
+h1 {
+  color: #765013;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #4B5C23;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+h3 {
+  color: #4B5C23;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+h4 {
+  color: #555753;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+ul {
+  padding-left: 2rem;
+  list-style-image: url("../img/bullet-arrow-transparent.png");
+}
+
+td {
+  background-color: #f8f8f3;
+  padding: 1rem;
+}
+
+th {
+  background-color: #e9e9d1;
+  padding: 1rem;
+}
+
+div.case-in-point:before {
   content: url("../img/point.gif");
   padding-right: 0.5rem;
   vertical-align: -50%;
 }
-#content div.check-out:before {
+
+div.check-out:before {
   content: url("../img/checkmark.gif");
   padding-right: 0.5rem;
   vertical-align: -50%;
 }
-#content div.did-you-know {
+
+div.did-you-know {
   background: #fbfaf7;
   box-shadow: 4px 4px 2px #888;
   margin-bottom: 1rem;
   padding: 0.5rem;
   width: 30%;
 }
-#content div.did-you-know.right {
+div.did-you-know.right {
   clear: right;
   float: right;
   margin-left: 1rem;
 }
-#content div.did-you-know.left {
+div.did-you-know.left {
   clear: left;
   float: left;
   margin-right: 1rem;
 }
-#content div.did-you-know h3 {
+div.did-you-know h3 {
   color: black;
   border-bottom: 1px solid black;
   margin-top: 0;
 }
-#content div.exercise {
+
+div.exercise {
   background: #fbfaf7;
   border-bottom: 1rem solid #765013;
   margin: 0 auto;
   width: 90%;
 }
-#content div.exercise h3 {
+div.exercise h3 {
   background: #765013;
   color: #fff;
   margin-top: 0;
   text-align: center;
 }
-#content div.exercise p {
+div.exercise p {
   padding: 0.25rem;
 }
-#content div.highlight {
+
+div.highlight {
   background: #FBF9F6;
   border: 1px solid #ddd2c2;
   box-shadow: 4px 4px 2px #888;
@@ -55,33 +98,38 @@
   padding: 1rem;
   width: 80%;
 }
-#content div.suggested:before {
+
+div.suggested:before {
   content: url("../img/action.gif");
   padding-right: 0.5rem;
   vertical-align: -50%;
 }
-#content div.watch-this:before {
+
+div.watch-this:before {
   content: url("../img/watch_glass.gif");
   padding-right: 0.5rem;
   vertical-align: -50%;
 }
-#content span.manager {
+
+span.manager {
   font-family: "Georgia", "Times New Roman", "Times", serif;
   font-size: 14px;
   font-weight: 700;
   color: #ca0000;
 }
-#content span.resource {
+
+span.resource {
   font-family: "Georgia", "Times New Roman", "Times", serif;
   font-size: 14px;
   font-weight: 700;
   color: #6f8531;
 }
-#content span.technical {
+
+span.technical {
   font-family: "Georgia", "Times New Roman", "Times", serif;
   font-size: 14px;
   font-weight: 700;
   color: #EEA643;
 }
 
-/*# sourceMappingURL=callouts.css.map */
+/*# sourceMappingURL=ckeditor.css.map */

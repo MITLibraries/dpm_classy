@@ -35,32 +35,31 @@ body {
 }
 
 #header {
+	#block-dpm-classy-branding {
+		.site-name {
+			color: #000;
+			font-family: "Literata", serif;
+			margin-top: 1rem;
+
+			a {
+				color: black;
+				font-size: 2rem;
+				font-weight: bold;
+				text-decoration: none;
+			}
+		}
+		.site-slogan {
+			color: #000;
+			font-family: "DM Sans", serif;
+			font-size: 1rem;
+			margin-top: 0.25rem;
+		}
+	}
 }
 
-#header #block-dpm-classy-branding .site-name {
-	font-family: "Literata", serif;
-	color: #000;
-}
-#header #block-dpm-classy-branding .site-slogan {
-	font-family: "DM Sans", serif;
-	color: #000;
-}
-
-#header .site-name {
-	margin-top: 1rem;
-}
-#header .site-name a {
-	color: black;
-	font-size: 2rem;
-	font-weight: bold;
-	text-decoration: none;
-}
-#header .site-slogan {
-	margin-top: 0.25rem;
-	font-size: 1rem;
-}
 #sidebar {
 }
+
 #footer {
 	border-top: 1px solid black;
 	margin-top: 1rem;

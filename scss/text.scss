@@ -7,53 +7,8 @@ body {
 	line-height: 19.2px;
 }
 
-#content h1 {
-	color: #765013;
-	font-size: 14px;
-	font-weight: 700;
+#content {
+	@import 'partials/_text.scss'
 }
 
-#content h2 {
-	color: #4B5C23;
-	font-size: 13px;
-	font-weight: 700;
-}
 
-#content h3 {
-	color: #4B5C23;
-	font-size: 12px;
-	font-weight: 700;
-}
-
-#content h4 {
-	color: #555753;
-	font-size: 12px;
-	font-weight: 700;
-}
-
-#content p {
-}
-
-#content li {
-}
-
-#content ol {
-}
-
-#content ul {
-	padding-left: 2rem;
-	list-style-image: url('../img/bullet-arrow-transparent.png');
-}
-
-#content table {
-}
-
-#content td {
-	background-color: #f8f8f3;
-	padding: 1rem;
-}
-
-#content th {
-	background-color: #e9e9d1;
-	padding: 1rem;
-}
