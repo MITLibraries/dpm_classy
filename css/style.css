@@ -37,8 +37,12 @@ body {
 #header {
 }
 
-#header #block-dpm-classy-branding {
-	font-family: "Noticia Text", serif;
+#header #block-dpm-classy-branding .site-name {
+	font-family: "Literata", serif;
+	color: #000;
+}
+#header #block-dpm-classy-branding .site-slogan {
+	font-family: "DM Sans", serif;
 	color: #000;
 }
 
