@@ -6,7 +6,6 @@ base theme: classy
 
 ckeditor_stylesheets:
   - css/ckeditor.css
-  - css/callouts.css
 
 libraries:
   - dpm_classy/global-styling
