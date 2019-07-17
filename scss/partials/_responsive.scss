@@ -1,0 +1,22 @@
+@media screen and (max-width:750px) {
+	.region-dial {
+		display: none;
+	}
+}
+
+// Linearize narrow pages
+@media (max-width: 480px) {
+	.masthead {
+		height: auto;
+	}
+	.site-logo img {
+		max-width: 100%;
+	}
+	.row.main {
+		flex-direction: column;
+
+		.column {
+			flex-direction: row;
+		}
+	}
+}
