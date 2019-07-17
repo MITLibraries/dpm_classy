@@ -26,6 +26,10 @@ body {
   max-width: 12rem;
 }
 
+.logocolumn {
+  max-width: 9rem;
+}
+
 .masthead {
   height: 11rem;
 }
