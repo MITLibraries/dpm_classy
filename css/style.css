@@ -1,6 +1,6 @@
 body {
   background: #fff url("../img/background.png") top left no-repeat;
-  color: #000;
+  color: #555753;
 }
 
 .row {
@@ -31,18 +31,18 @@ body {
 }
 
 #header #block-dpm-classy-branding .site-name {
-  color: #000;
+  color: #000000;
   font-family: "Literata", serif;
   margin-top: 1rem;
 }
 #header #block-dpm-classy-branding .site-name a {
-  color: black;
+  color: #000000;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
 }
 #header #block-dpm-classy-branding .site-slogan {
-  color: #000;
+  color: #000000;
   font-family: "DM Sans", serif;
   font-size: 1rem;
   margin-top: 0.25rem;

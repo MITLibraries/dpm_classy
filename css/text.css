@@ -23,9 +23,18 @@ body {
   font-weight: 700;
 }
 #content h4 {
-  color: #555753;
+  color: #4B5C23;
   font-size: 12px;
   font-weight: 700;
+}
+#content h5 {
+  color: #4B5C23;
+}
+#content h6 {
+  color: #4B5C23;
+}
+#content a {
+  color: #005bb7;
 }
 #content ul {
   padding-left: 2rem;

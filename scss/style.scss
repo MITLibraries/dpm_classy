@@ -1,6 +1,8 @@
+@import 'partials/_colors.scss';
+
 body {
 	background: #fff url('../img/background.png') top left no-repeat;
-	color: #000;
+	color: $bodycolor;
 }
 
 .row {
@@ -37,19 +39,19 @@ body {
 #header {
 	#block-dpm-classy-branding {
 		.site-name {
-			color: #000;
+			color: $mastcolor;
 			font-family: "Literata", serif;
 			margin-top: 1rem;
 
 			a {
-				color: black;
+				color: $mastcolor;
 				font-size: 2rem;
 				font-weight: bold;
 				text-decoration: none;
 			}
 		}
 		.site-slogan {
-			color: #000;
+			color: $mastcolor;
 			font-family: "DM Sans", serif;
 			font-size: 1rem;
 			margin-top: 0.25rem;

@@ -1,27 +1,38 @@
+@import '_colors.scss';
+
 h1 {
-	color: #765013;
+	color: $titlecolor;
 	font-size: 14px;
 	font-weight: 700;
 }
 
 h2 {
-	color: #4B5C23;
+	color: $subcolor;
 	font-size: 13px;
 	font-weight: 700;
 }
 
 h3 {
-	color: #4B5C23;
+	color: $subcolor;
 	font-size: 12px;
 	font-weight: 700;
 }
 
 h4 {
-	color: #555753;
+	color: $subcolor;
 	font-size: 12px;
 	font-weight: 700;
 }
+h5 {
+	color: $subcolor;
+}
+h6 {
+	color: $subcolor;
+}
 
+a {
+	color: $linkcolor;
+}
 p {
 }
 

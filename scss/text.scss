@@ -1,6 +1,8 @@
+@import 'partials/_colors.scss';
+
 body {
 	background-color: #fff;
-	color: #555753;
+	color: $bodycolor;
 	font-family: "Verdana", sans-serif;
 	font-size: 12px;
 	font-weight: 400;
@@ -8,7 +10,7 @@ body {
 }
 
 #content {
-	@import 'partials/_text.scss'
+	@import 'partials/_text.scss';
 }
 
 

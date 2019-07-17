@@ -17,9 +17,21 @@ h3 {
 }
 
 h4 {
-  color: #555753;
+  color: #4B5C23;
   font-size: 12px;
   font-weight: 700;
+}
+
+h5 {
+  color: #4B5C23;
+}
+
+h6 {
+  color: #4B5C23;
+}
+
+a {
+  color: #005bb7;
 }
 
 ul {
