@@ -1,32 +1,38 @@
 h1 {
+  clear: both;
   color: #765013;
   font-size: 14px;
   font-weight: 700;
 }
 
 h2 {
+  clear: both;
   color: #4B5C23;
   font-size: 13px;
   font-weight: 700;
 }
 
 h3 {
+  clear: both;
   color: #4B5C23;
   font-size: 12px;
   font-weight: 700;
 }
 
 h4 {
+  clear: both;
   color: #4B5C23;
   font-size: 12px;
   font-weight: 700;
 }
 
 h5 {
+  clear: both;
   color: #4B5C23;
 }
 
 h6 {
+  clear: both;
   color: #4B5C23;
 }
 

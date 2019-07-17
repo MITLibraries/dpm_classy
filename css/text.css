@@ -8,29 +8,35 @@ body {
 }
 
 #content h1 {
+  clear: both;
   color: #765013;
   font-size: 14px;
   font-weight: 700;
 }
 #content h2 {
+  clear: both;
   color: #4B5C23;
   font-size: 13px;
   font-weight: 700;
 }
 #content h3 {
+  clear: both;
   color: #4B5C23;
   font-size: 12px;
   font-weight: 700;
 }
 #content h4 {
+  clear: both;
   color: #4B5C23;
   font-size: 12px;
   font-weight: 700;
 }
 #content h5 {
+  clear: both;
   color: #4B5C23;
 }
 #content h6 {
+  clear: both;
   color: #4B5C23;
 }
 #content a {
