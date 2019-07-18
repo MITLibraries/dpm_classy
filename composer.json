@@ -8,8 +8,5 @@
             "name": "Matt Bernhardt",
             "email": "mjbernha@mit.edu"
         }
-    ],
-    "require": {
-        "scssphp/scssphp": "^1.0"
-    }
+    ]
 }
