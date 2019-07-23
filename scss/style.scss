@@ -35,18 +35,20 @@ body {
 }
 
 #header {
-}
-#header .site-name {
-	margin-top: 1rem;
-}
-#header .site-name a {
-	color: black;
-	font-size: 2rem;
-	font-weight: bold;
-	text-decoration: none;
-}
-#header .site-slogan {
-	margin-top: -0.5rem;
+	.site-name {
+		margin-top: 1rem;
+
+		a {
+			color: black;
+			font-size: 2rem;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+
+	.site-slogan {
+		margin-top: -0.5rem;
+	}
 }
 #sidebar {
 }
