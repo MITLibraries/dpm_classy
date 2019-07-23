@@ -5,6 +5,7 @@ global-styling:
       css/text.css: {}
       css/callouts.css: {}
       css/superfish.css: {}
+      'https://fonts.googleapis.com/css?family=DM+Sans|Literata:700&display=swap': { external: true }
 
 dpm_classy.selfquiz:
   css:

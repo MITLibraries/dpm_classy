@@ -30,17 +30,22 @@ body {
   height: 11rem;
 }
 
-#header .site-name {
+#header #block-dpm-classy-branding .site-name {
+  color: black;
+  font-family: "Literata", serif;
   margin-top: 1rem;
 }
-#header .site-name a {
+#header #block-dpm-classy-branding .site-name a {
   color: black;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
 }
-#header .site-slogan {
-  margin-top: -0.5rem;
+#header #block-dpm-classy-branding .site-slogan {
+  color: black;
+  font-family: "DM Sans", serif;
+  font-size: 1rem;
+  margin-top: 0.25rem;
 }
 
 #footer {
