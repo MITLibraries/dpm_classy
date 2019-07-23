@@ -23,7 +23,11 @@ body {
 }
 
 .thincolumn {
-  max-width: 11rem;
+  max-width: 12rem;
+}
+
+.logocolumn {
+  max-width: 9rem;
 }
 
 .masthead {
