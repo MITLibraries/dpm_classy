@@ -66,6 +66,17 @@ div.highlight {
 	width: 80%;
 }
 
+// Institution logos table
+div.institutions {
+	table {
+		width: 100%;
+	}
+	td {
+		background: none;
+		text-align: center;
+	}
+}
+
 // Suggested actions
 div.suggested:before {
 	content: url('../img/action.gif');

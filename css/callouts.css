@@ -55,6 +55,13 @@
   padding: 1rem;
   width: 80%;
 }
+#content div.institutions table {
+  width: 100%;
+}
+#content div.institutions td {
+  background: none;
+  text-align: center;
+}
 #content div.suggested:before {
   content: url("../img/action.gif");
   padding-right: 0.5rem;
