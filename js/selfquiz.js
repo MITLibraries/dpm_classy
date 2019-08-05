@@ -40,8 +40,10 @@ window.app.selfquiz = {
 	buildQuizAnswer : function(i, element) {
 		window.app.selfquiz.debug('Building answer ' + i);
 
-		// What type of question are we building?
+		// What type of question are we building? This builds radio input
+		// elements unless explicitly told to make checkboxes.
 		type = jQuery(element.closest('.answers')).attr('data-questiontype') || 'radio';
+		if('checkbox' !== type) { type = 'radio'; }
 
 		// What question is this part of?
 		question = jQuery(element.closest('.question')).attr('data-question') || 'questionNULL';
@@ -93,6 +95,8 @@ window.app.selfquiz = {
 
 			if ( 'radio' === type ) {
 				window.app.selfquiz.gradeQuizRadio();
+			} else if ( 'multi-radio' === type ) {
+				window.app.selfquiz.gradeQuizMultiRadio();
 			} else if ( 'checkbox' === type ) {
 				window.app.selfquiz.gradeQuizCheckbox();
 			}
@@ -127,6 +131,17 @@ window.app.selfquiz = {
 			points++;
 		} else {
 			window.app.selfquiz.debug('Q' + i + ': Got ' + answerText + ', expected ' + correctText);
+		}
+	},
+
+	gradeQuizMultiRadio : function() {
+		answer = jQuery(window.app.selfquiz.questions[i]).find('input:checked').val();
+		correct = jQuery(window.app.selfquiz.questions[i]).find('li[data-status="correct"]').text();
+		if ( correct.includes(answer) ) {
+			window.app.selfquiz.debug('Q' + i + ': correct');
+			points++;
+		} else {
+			window.app.selfquiz.debug('Q' + i + ': Got ' + answer + ', which is not in ' + correct);
 		}
 	},
 
