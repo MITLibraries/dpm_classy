@@ -39,16 +39,14 @@ ul {
   list-style-image: url("../img/bullet-arrow-transparent.png");
 }
 
-table {
-  border: 1px solid #000066;
-}
-
 td {
   background-color: #f8f8f3;
+  padding: 1rem;
 }
 
 th {
   background-color: #e9e9d1;
+  padding: 1rem;
 }
 
 div.case-in-point:before {
@@ -114,6 +112,7 @@ div.highlight {
   clear: both;
   margin: 0 auto;
   margin-top: 1rem;
+  padding: 1rem;
   width: 80%;
 }
 
