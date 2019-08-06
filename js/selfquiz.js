@@ -10,11 +10,14 @@ window.app = window.app || {};
  */
 window.app.selfquiz = {
 
+	version: '1.0.0',
+
 	initialize : function(config) {
 		config = config || {};
 		this.debugFlag = config.debug || false;
 
-		this.quiz = jQuery(config.quizElement) || jQuery(".selfquiz");
+		this.quizElement = config.quizElement || '.selfquiz';
+		this.quiz = jQuery(this.quizElement);
 		if (0 === this.quiz.length) {
 			console.log('Quiz element not found');
 			return;
@@ -40,10 +43,9 @@ window.app.selfquiz = {
 	buildQuizAnswer : function(i, element) {
 		window.app.selfquiz.debug('Building answer ' + i);
 
-		// What type of question are we building? This builds radio input
-		// elements unless explicitly told to make checkboxes.
+		// What type of question are we building?
 		type = jQuery(element.closest('.answers')).attr('data-questiontype') || 'radio';
-		if('checkbox' !== type) { type = 'radio'; }
+		if(type !== 'checkbox') { type = 'radio'; }
 
 		// What question is this part of?
 		question = jQuery(element.closest('.question')).attr('data-question') || 'questionNULL';
