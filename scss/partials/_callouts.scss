@@ -1,0 +1,117 @@
+// Block styles
+// Case in point
+div.case-in-point:before {
+	content: url('../img/point.gif');
+	padding-right: 0.5rem;
+	vertical-align: -50%;
+}
+
+// Check this out
+div.check-out:before {
+	content: url('../img/checkmark.gif');
+	padding-right: 0.5rem;
+	vertical-align: -50%;
+}
+
+// "Did you know" sidebar (either left or right)
+div.did-you-know {
+	background: #fbfaf7;
+	box-shadow: 4px 4px 2px #888;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	width: 30%;
+}
+div.did-you-know.right {
+	clear: right;
+	float: right;
+	margin-left: 1rem;
+}
+div.did-you-know.left {
+	clear: left;
+	float: left;
+	margin-right: 1rem;
+}
+div.did-you-know h3 {
+	color: black;
+	border-bottom: 1px solid black;
+	margin-top: 0;
+}
+
+// Exercise callout
+div.exercise {
+	background: #fbfaf7;
+	border-bottom: 1rem solid #765013;
+	margin: 0 auto;
+	width: 90%;
+}
+div.exercise h3 {
+	background: #765013;
+	color: #fff;
+	margin-top: 0;
+	text-align: center;
+}
+div.exercise p {
+	padding: 0.25rem;
+}
+
+// Highlight callout (Case in point, etc)
+div.highlight {
+	background: #FBF9F6;
+	border: 1px solid #ddd2c2;
+	box-shadow: 4px 4px 2px #888;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 1rem;
+	padding: 1rem;
+	width: 80%;
+}
+
+// Institution logos table
+div.institutions {
+	table {
+		width: 100%;
+	}
+	td {
+		background: none;
+		text-align: center;
+	}
+}
+
+// Suggested actions
+div.suggested:before {
+	content: url('../img/action.gif');
+	padding-right: 0.5rem;
+	vertical-align: -50%;
+}
+
+// Watch this spot
+div.watch-this:before {
+	content: url('../img/watch_glass.gif');
+	padding-right: 0.5rem;
+	vertical-align: -50%;
+}
+
+// Inline styles
+// Organizational challenge
+span.manager {
+	font-family: "Georgia", "Times New Roman", "Times", serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ca0000;
+}
+
+// Technical challenge
+span.technical {
+	font-family: "Georgia", "Times New Roman", "Times", serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #EEA643;
+}
+
+// Resource challenge
+span.resource {
+	font-family: "Georgia", "Times New Roman", "Times", serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #6f8531;
+}

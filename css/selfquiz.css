@@ -1,55 +1,45 @@
 .selfquiz {
   padding: 8px 0;
 }
-
-.selfquiz .question {
-  padding-bottom: 8px;
-}
-
-.selfquiz .prompt {
-  font-size: 16px;
-  font-weight: bold;
-  padding-bottom: 8px;
-}
-
-.selfquiz .feedback {
-  font-size: 14px;
-  color: red;
-  padding-bottom: 16px;
-}
-
 .selfquiz .answers {
   font-size: 14px;
   list-style-type: none;
   padding-bottom: 4px;
   padding-left: 0;
 }
-
 .selfquiz .answers label {
   font-weight: normal;
 }
-
 .selfquiz .answers li {
   padding-bottom: 4px;
 }
-
+.selfquiz .correct {
+  background: #66ff66;
+}
+.selfquiz .feedback {
+  font-size: 14px;
+  color: red;
+  padding-bottom: 16px;
+}
+.selfquiz .hidden {
+  display: none;
+}
+.selfquiz .prompt {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+.selfquiz .question {
+  padding-bottom: 8px;
+}
 .selfquiz .score {
   color: red;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 16px;
 }
-
-.selfquiz .correct {
-  background: #66ff66;
-}
-
 .selfquiz .wrong {
   background: #ff6666;
-}
-
-.selfquiz .hidden {
-  display: none;
 }
 
 /*# sourceMappingURL=selfquiz.css.map */

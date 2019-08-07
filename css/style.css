@@ -23,26 +23,33 @@ body {
 }
 
 .thincolumn {
-  max-width: 11rem;
+  max-width: 12rem;
+}
+
+.logocolumn {
+  max-width: 9rem;
 }
 
 .masthead {
   height: 11rem;
 }
 
-#header .site-name {
+#header #block-dpm-classy-branding .site-name {
+  color: black;
+  font-family: "Literata", serif;
   margin-top: 1rem;
 }
-
-#header .site-name a {
+#header #block-dpm-classy-branding .site-name a {
   color: black;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
 }
-
-#header .site-slogan {
-  margin-top: -0.5rem;
+#header #block-dpm-classy-branding .site-slogan {
+  color: black;
+  font-family: "DM Sans", serif;
+  font-size: 1rem;
+  margin-top: 0.25rem;
 }
 
 #footer {
@@ -50,6 +57,28 @@ body {
   margin-top: 1rem;
   padding-top: 1rem;
   width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .region-dial {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .masthead {
+    height: auto;
+  }
+
+  .site-logo img {
+    max-width: 100%;
+  }
+
+  .row.main {
+    flex-direction: column;
+  }
+  .row.main .column {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
