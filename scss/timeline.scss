@@ -1,0 +1,46 @@
+// These styles are for the timeline category filter.
+#content div.view-timeline-categories {
+	a {
+		background-color: #cbd6ba;
+		color: #005bb7;
+		display: block;
+		height: 100%;
+		text-decoration: none;
+
+		&:hover {
+			background-color: #e5b362;
+		}
+	}
+	li {
+		flex: 1;
+		list-style: none;
+		margin: 0 0.1rem;
+		text-align: center;
+
+		div.views-field-name {
+			height: 100%;
+		}
+	}
+	ul {
+		border-top: 1px solid #6f8531;
+		display: flex;
+		flex-direction: row;
+		padding-left: 0;
+	}
+}
+
+// These styles are for the timeline content area.
+#content div.view-timeline>div.view-content {
+	ul {
+		margin-bottom: 1.5rem;
+		padding-left: 1rem;
+	}
+
+	.item-list {
+		h3 {
+			background-color: #6f8531;
+			color: #ffffff;
+			padding-left: 0.25rem;
+		}
+	}
+}
