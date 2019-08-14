@@ -4,6 +4,7 @@ global-styling:
       css/style.css: {}
       css/text.css: {}
       css/callouts.css: {}
+      css/timeline.css: {}
       css/superfish.css: {}
       'https://fonts.googleapis.com/css?family=DM+Sans|Literata:700&display=swap': { external: true }
 
